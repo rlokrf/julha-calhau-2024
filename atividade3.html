@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+<body>
+    <form>
+    <p><font size="6" face="Arial">Formulário</font></p>
+    <br>
+    <br>
+    <fieldset>
+        <legend><font size="4" face="Arial">Dados Pessoais</font></legend>
+        <label for="nome"><font size="4" face="Arial">Nome:</font> </label> 
+        <input type="nome" id="nome" requered/>
+        <br>
+        <label for="endereço"><font size="4" face="Arial">Endereço:</font></label>
+        <input type="endereço" id="endereço" requered/>
+        <br>
+        <label for="cidade"><font size="4" face="Arial">Cidade</font></label>
+        <input type="cidade" id="cidade" requered/>
+        <br>
+        <label for="estado"><font size="4" face="Arial">Estado</font></label>
+        <select id="estado">
+             <option>AC</option>
+             <option>AL</option>
+             <option>AP</option>
+             <option>AM</option>
+             <option>BA</option>
+             <option>CE</option>
+             <option>ES</option>
+             <option>GO</option>
+             <option>MA</option>
+             <option>MT</option>
+             <option>MS</option>
+             <option>MG</option>
+             <option>PA</option>
+             <option>PB</option>
+             <option>PR</option>
+             <option>PE</option>
+             <option>PI</option>
+             <option>RJ</option>
+             <option>RN</option>
+             <option>RS</option>
+             <option>RO</option>
+             <option>RR</option>
+             <option>SC</option>
+             <option>SP</option>
+             <option>SE</option>
+             <option>TO</option>
+        </select>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+     <legend><font size="4" face="Arial">Dados Profissionais</font></legend>
+     <br>
+     <br>
+     <label for="natureza do cargo"><font size="4" face="Arial">Natureza do Cargo</font></label>
+     <br>
+        <input type="radio" id="gerência" name="Natureza do Cargo"/>
+        <label for="gerência">Gerência</label>
+        <input type="radio" id="financeiro" name="Natureza do Cargo"/>
+        <label for="financeiro">Financeiro</label>
+        <input type="radio" id="recepção" name="Natureza do Cargo"/>
+        <label for="recepção">Recepção</label>
+        <input type="radio" id="administrativo" name="Natureza do Cargo"/>
+        <label for="administrativo">Administrativo</label>
+        <input type="radio" id="jurídico" name="Natureza do Cargo"/>
+        <label for="jurídico">Jurídico</label>
+        <br>
+        <br>
+        <label for="área de interesse"><font size="4" face="Arial">Área de interesse</font></label>
+        <br>
+        <input type="checkbox" id="computação" name="Área de Interesse"/>
+        <label for="computação">Computação</label>
+        <input type="checkbox" id="biologia" name="Área de Interesse"/>
+        <label for="biologia">Biologia</label>
+        <input type="checkbox" id="meio ambiente" name="Área de Interesse"/>
+        <label for="meio ambiente">Meio Ambiente</label>
+        <input type="checkbox" id="engenharia" name="Área de Interesse"/>
+        <label for="engenharia">Engenharia</label>
+        <input type="checkbox" id="história" name="Área de Interesse"/>
+        <label for="história">História</label>
+        <br>
+        <label for="mini-currículo"><font size="4" face="Arial">Mini-Currículo</font></label>
+        <textarea id="mini-currículo"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit"/>
+        <input type="reset" value="limpar"/>
+    </form>
+    
+</body>
+</html>
